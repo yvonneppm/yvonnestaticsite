@@ -1,0 +1,68 @@
+:root {
+    --pink: #e24d70;
+}
+
+body{
+    background-image: url("background.jpeg");
+}
+
+.myphoto-text{
+    display: flex;
+    align-items: center;
+    gap: 0.2em;
+}
+
+.myphoto-text img{
+    width: 25em;
+    height: 30em;
+}
+
+.header{
+    font-family: "Great Vibes", cursive;
+    font-size: 6em;
+    color: var(--pink);
+    line-height: 1.4em;
+    font-style: italic;
+}
+
+.mydescription{
+    font-family: "Courier New";
+    line-height: 2em;
+    color: var(--pink);
+}
+
+.white-background{
+    background-color: white;
+    padding: 3em;
+}
+
+.pink-border{
+    border: 0.3em ridge pink;
+    margin: 2em;
+}
+
+table,th,td{
+    border: 0.1em solid palevioletred;
+    margin: 3em;
+}
+
+th,td{
+    padding: 20px 30px;
+}
+
+tbody tr:nth-child(even) {
+    background-color: #ffe3f2;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #fff5fa;
+}
+
+.title{
+    font-family: "Great Vibes", cursive;
+    color: #e24d70;
+    font-size: 3em;
+    margin-left: 1em;
+    text-decoration: underline;
+}
+
